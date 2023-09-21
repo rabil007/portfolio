@@ -1,0 +1,37 @@
+*{
+
+    font-family: sans-serif;
+}
+header{
+    color: white;
+}
+
+h1,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card:hover{
+    box-shadow: 2px 2px 60px 3px;
+    transform: scale(1.05);
+}
+.card{
+    box-shadow: 3px 3px 15px 0px;
+    z-index: -2;
+}
+.icon:hover{
+    transform: scale(1.30);
+}
+.nav-item:hover{
+    transform: scale(1.10);
+}
+@media(max-width:990px){
+    #user{
+        display: none;
+    }
+}
+form input{
+    border: none;
+    width: 280px;
+}
+nav{
+    
+}
